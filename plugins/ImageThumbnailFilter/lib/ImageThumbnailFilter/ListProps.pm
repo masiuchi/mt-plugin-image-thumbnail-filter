@@ -1,8 +1,6 @@
 package ImageThumbnailFilter::ListProps;
 use strict;
 
-use MT::Asset::Image;
-
 our $NAME   = ( split /::/, __PACKAGE__ )[0];
 our $PLUGIN = MT->instance()->component( $NAME );
 
